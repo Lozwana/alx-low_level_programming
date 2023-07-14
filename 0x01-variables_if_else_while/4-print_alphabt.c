@@ -16,7 +16,7 @@ int main(void)
 			n++;
 			continue;
 		}
-		putcher(n);
+		putchar(n);
 		n++;
 	}
 	putcher('\n');
