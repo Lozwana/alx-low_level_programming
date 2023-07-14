@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main -  prints the alphabet in lowercase
+ * main - Entry point
+ * Description:  prints the alphabet in lowercase
  * using putchar function
  * Return: 0
  */
 int main(void)
 {
-	int = 97;
+	int n = 97;
 
 	while (n <= 122)
 	{
@@ -15,6 +16,5 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
-
 	return (0);
 }
