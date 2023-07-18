@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <main.h>
 /**
  * main - Entry point
@@ -9,8 +8,12 @@
  */
 int main(void)
 {
-	printf("\"_putchar");
-
-	printf("\n");
-	return (0);
+char *ch = "_putcher";
+while (*ch)
+{
+_putchar(*ch);
+ch++;
+}
+_putchar('\n');
+return (0);
 }
